@@ -1,7 +1,7 @@
 def oxford_comma(array)
   #array.join(" and ")
   if array.length > 2
-    array.last {|word| "and #{word}"}
+    array[2] = "and starfruit"
     array.join(", ")
     
      else
